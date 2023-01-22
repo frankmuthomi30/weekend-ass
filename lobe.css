@@ -1,0 +1,160 @@
+body{
+    align-items: center;
+    justify-content: center;
+    max: width 100%;;
+}
+
+
+.headercontainer{
+    display: flex;
+    flex-direction: row;  
+  
+    
+}
+p{
+
+    margin-right: 220px;
+    margin-left: 60px;
+}
+
+.topmnu{
+    display: flex;
+    align-content: space-between;
+    margin-left: 40px;
+    
+}
+.but{
+    display: flex;
+    flex-direction: row;
+}
+.but button{
+    background-color:#04ddb2;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+}
+.download{
+    background-color:#04ddb2;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.txtcolour-2{
+    color: #04ddb2;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.intro-1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+font-size: 50px;
+font-weight: bolder;
+font-family: arial;
+text-transform: capitalize;
+}
+.intro-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  text-align: center;
+  font-family: arial;
+  color: #333333;
+  text-transform: capitalize;
+ 
+
+}
+.container img{
+    height: 300px;
+    border-radius: 12px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.intro-3{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.but1{
+    display: flex;
+    justify-content: center;
+    margin:30px
+}
+.info{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #white;
+    height: 300px;
+    width:100%
+  
+
+}
+.line{
+    display: flex;
+    justify-content: center;
+align-items: center;
+align-self: center;
+    border-top: solid;
+    color: rgba(104, 103, 103, 0.8);
+    border-style: 5px;
+    margin: 60px;
+    border-width: 0.5px;
+    border
+}
+
+.header2{
+    display: flex ;
+      flex-flow: row;
+      
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:1px ;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+margin-right: 50px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+span{
+    font-weight: bold;
+}
+div{
+    margin: 10px;
+}
