@@ -223,17 +223,31 @@ div{
         display: flex;
         flex-direction: column;
       background-color: lightgreen;
-      width: 46%;
+    
     }
     .menu0 {gap: 40px;
         display: flex;
-        flex-direction: column;
+        flex-direction: ;
     
 
   }
   .headertop{
     display: flex;
     flex-direction: column;
+
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 60px;
+    font: weight 100px;;
+  }
+  .btn0{
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    margin-top: 40px;
   }
 
 
@@ -241,52 +255,20 @@ div{
     body {
       background-color: rgb(76, 161, 247);
     }
-    .logo{
-        
-        display: flex;
-        flex-direction: column;
-        font-size: 50px;
-    }
-    .footer{
-        margin: 20p 5%x;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .menu0 {gap: 10px;}
-    .intro-3{display: flex;
-        flex-direction: column;
-    }
-    .container img{
-        display: flex;
-        flex-direction: column;
-      margin-left: 200px;
-        height: 200px;
-        width: 350px;
-    }
-    .headertop{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .btn0{
-        display: flex;
-        flex-direction: column;
-    }
-    .intro-2{
-        display: flex;
-       flex-direction: column;
-    }
-    .intro-1{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .menu0 {
-        display: flex;
-        flex-direction: column;
-    }
+    
     div{
         color: white;
     }
+    .container img{
+        height: 200px;
+    }
+    media screen and (max-width: 412px)
+    
+.footer{
+    display: grid;
+    grid-template-columns:
+}
+.footer1{
+    display: grid;
+    
+}
