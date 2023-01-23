@@ -1,7 +1,6 @@
 body{
     align-items: center;
     justify-content: center;
-    max: width 100%;;
 }
 header{
     display: flex;
@@ -12,14 +11,16 @@ header{
 .headertop{
     display: flex;
     justify-content: center;
-    align-self: baseline;
+ 
     
 
 }
 .logo{
     display: flex;
     font-size: x-large;
-    float: right;
+    margin-right: 70px;
+    justify-content: space-evenly;
+    font-weight: 900;
 }
 .menu0{
     display: flex;
@@ -206,18 +207,6 @@ div{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 720px) {
     body {
         display: flex;
@@ -262,13 +251,4 @@ div{
     .container img{
         height: 200px;
     }
-    media screen and (max-width: 412px)
     
-.footer{
-    display: grid;
-    grid-template-columns:
-}
-.footer1{
-    display: grid;
-    
-}
