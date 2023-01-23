@@ -3,37 +3,49 @@ body{
     justify-content: center;
     max: width 100%;;
 }
-
-
-.headercontainer{
+header{
     display: flex;
-    flex-direction: row;  
-  
+    justify-content: center;
+    font-family: arial;
+    font-weight: bold;
+}
+.headertop{
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
     
-}
-p{
 
-    margin-right: 220px;
-    margin-left: 60px;
+}
+.logo{
+    display: flex;
+    font-size: x-large;
+    float: right;
+}
+.menu0{
+    display: flex;
+    gap: 50px;
+    color: rgb(140, 144, 148);
+    padding: ;
+    margin: 0px;
+    margin-top: 20px;
+}
+.btn0{
+    display: flex;
+    margin-left: 100px;
+
 }
 
-.topmnu{
-    display: flex;
-    align-content: space-between;
-    margin-left: 40px;
-    
-}
-.but{
-    display: flex;
-    flex-direction: row;
-}
-.but button{
+
+.but0 {
     background-color:#04ddb2;
     border: none;
     height: 40px;
     width: 120px;
     border-radius: 20px;
     color: white;
+    
+    
+   
 }
 .download{
     background-color:#04ddb2;
@@ -84,8 +96,12 @@ text-transform: capitalize;
 .intro-3{
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 50px;
     text-align: center;
+    font-weight: 1000;
+    font-family: arial;
+    color: #333333;
+
     
 }
 .but1{
@@ -154,7 +170,123 @@ margin-right: 50px;
 }
 span{
     font-weight: bold;
+    text-transform: capitalize;
+    color: #333333e5;
 }
 div{
     margin: 10px;
+    font-family: arial;
+    color: #4b4a4a;
+    font-weight: 500;
+    text-transform: capitalize;
 }
+}
+.icons{
+    display: flex;
+}
+.mess{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.tweet{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.you{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    body {
+        display: flex;
+        flex-direction: column;
+      background-color: lightgreen;
+      width: 46%;
+    }
+    .menu0 {gap: 40px;
+        display: flex;
+        flex-direction: column;
+    
+
+  }
+  .headertop{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: rgb(76, 161, 247);
+    }
+    .logo{
+        
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+    .footer{
+        margin: 20p 5%x;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu0 {gap: 10px;}
+    .intro-3{display: flex;
+        flex-direction: column;
+    }
+    .container img{
+        display: flex;
+        flex-direction: column;
+      margin-left: 200px;
+        height: 200px;
+        width: 350px;
+    }
+    .headertop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn0{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-2{
+        display: flex;
+       flex-direction: column;
+    }
+    .intro-1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .menu0 {
+        display: flex;
+        flex-direction: column;
+    }
+    div{
+        color: white;
+    }
